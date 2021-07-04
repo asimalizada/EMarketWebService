@@ -4,5 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\EMarketWebService.Business\EMarketWebService.Business.csproj" />
+    <ProjectReference Include="..\EMarketWebService.Entities\EMarketWebService.Entities.csproj" />
+  </ItemGroup>
+
 
 </Project>
